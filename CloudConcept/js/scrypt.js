@@ -26,7 +26,7 @@ anychart.onDocumentReady(function () {
 	{"x": "ReactJS", "value": 121000000, category: "Linguagem"},
 	{"x": "MS SQL", "value": 121000000, category: "Base de Dados"},
 	{"x": "Become Remote", "value": 121000000, category: "Bootcamp"},
-	{"x": "My SQL", "value": 121000000, category: "Indo-European"},
+	{"x": "My SQL", "value": 121000000, category: "Base de Dados"},
 	{"x": "Cloud Computer", "value": 121000000, category: "Arquitetura"},
 	{"x": "Azure", "value": 121000000, category: "Arquitetura"},
 	{"x": "Blockchain", "value": 121000000, category: "Tecnologia"},

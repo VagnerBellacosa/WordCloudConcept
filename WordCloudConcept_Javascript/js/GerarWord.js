@@ -1,6 +1,9 @@
 
-var btn = document.getElementById('button-gerar');
+var btn = document.getElementById('button-generate');
+
 var container = document.querySelector('.container');
+
+var ctordem = 0;
 
 btn.addEventListener('click', function() {
     
@@ -9,7 +12,25 @@ btn.addEventListener('click', function() {
   } else {
       container.style.display = 'block';
   }
+      
+  for (var i = 0; i < 15; i++) {
+//    {"x": "Mandarin chinese", "value": 1090000000, category: "Sino-Tibetan"}
+    ctordem = i + 1;
+    var Texto = "{" + "\"" + "x" + "\"" + ": " + "document.getElementById(\"" + "palavra" + ctordem + "\");"
+			
+    console.log(Texto);
+    // more statements
+  }
+    
 });
+
+
+string 
+
+// arr.push
+
+
+
 
 anychart.onDocumentReady(function() {
 	
@@ -21,6 +42,8 @@ anychart.onDocumentReady(function() {
 	// format the angles
 	chart.angles([0, -45, 90]);
 
+  var nome = document.getElementById("nomeid");
+ 
   var data = [
     {"x": "Mandarin chinese", "value": 1090000000, category: "Sino-Tibetan"},
     {"x": "English", "value": 983000000, category: "Indo-European"},
